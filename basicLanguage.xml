@@ -1,0 +1,16 @@
+<Root>
+	<!-- output as in express, communicate -->
+	<!-- <Symbol name="word1" categ="output"/>
+	<Symbol name="word2" categ="output"/>
+	<Symbol name="word3" categ="output"/>
+	<Symbol name="word4" categ="output"/>
+	<Symbol name="word5" categ="output"/> -->
+	<!-- input as in learn -->
+	<!-- <Symbol name="q"     categ="input"/> -->
+
+	<Symbol name="cat"   categ="S"/> <!-- it can also be O, but for the sake of simplicity..-->
+	<Symbol name="ball"  categ="O"/>
+	<Symbol name="water" categ="O"/>
+	<Symbol name="play"  categ="A"/>
+	<Symbol name="drink" categ="A"/>
+</Root>

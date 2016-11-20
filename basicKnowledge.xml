@@ -1,0 +1,30 @@
+<Root>
+	<Stories>
+		<Story content="cat,play,ball"   valid="true"/>
+		<Story content="cat,play,water"  valid="true"/>
+		<Story content="cat,play,cat"    valid="true"/>
+		<Story content="cat,drink,ball"  valid="false"/>
+		<Story content="cat,drink,water" valid="true"/>
+		<Story content="cat,drink,cat"   valid="false"/>
+	</Stories>
+
+<!-- ball and water can be subjects, but not in the first ex -->
+<!-- 	<Story content="ball,play,ball"   valid="false"/>
+	<Story content="ball,play,water"  valid="false"/>
+	<Story content="ball,play,cat"    valid="false"/>
+	<Story content="ball,drink,ball"  valid="false"/>
+	<Story content="ball,drink,water" valid="false"/>
+	<Story content="ball,drink,cat"   valid="false"/>
+	
+	<Story content="water,play,ball"   valid="false"/>
+	<Story content="water,play,water"  valid="false"/>
+	<Story content="water,play,cat"    valid="false"/>
+	<Story content="water,drink,ball"  valid="false"/>
+	<Story content="water,drink,water" valid="false"/>
+	<Story content="water,drink,cat"   valid="false"/> -->
+
+	<Patterns>
+		<Pattern content="S,A,O"/>
+	</Patterns>
+
+</Root>
